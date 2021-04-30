@@ -7,12 +7,12 @@ It's quickly becomes an annoying mess when you try implementing something out of
 It should also manage inputs for tty-s and from any non-standard inputs, like tablets or gamepads.
 
 ### Features
- - xdg compatable interface (so that minimal patching is requered. And I'm too laixy to try inventing a new standard)
- - Wayland-oriented (mainly because I'm beting on Wayland's succes)
- - sequrity mode - only send characters and modyfiers, with no connection to real keycodes on scancodes
+ - xdg compatible interface (so that minimal patching is required. And I'm too lazy to try inventing a new standard)
+ - Wayland-oriented (mainly because I'm betting on Wayland's success)
+ - security mode - only send characters and modifiers, with no connection to real keycodes on scancodes
  - make virtual inputs equal, so that, for example, keyboard of ssh client was seen the same way as physically connected one
- - pass-through mode - there's a lot of applications that depend on reading keys directly, so this mode should provide some compatability
- - layut support - no more strange ways to determine layout, this one deamor reads inputs so it is also the one how to interpret them (depends on sending only characters...)
+ - pass-through mode - there's a lot of applications that depend on reading keys directly, so this mode should provide some compatibility
+ - layout support - no more strange ways to determine layout, this one deamon reads inputs so it is also the one to interpret them (depends on sending only characters...)
  - keybindings support?
  - mapping and remapping config file
  - auto-detecting keys
