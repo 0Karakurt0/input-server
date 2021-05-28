@@ -16,3 +16,6 @@ It should also manage inputs for tty-s and from any non-standard inputs, like ta
  - keybindings support?
  - mapping and remapping config file
  - auto-detecting keys
+
+
+https://www.freedesktop.org/wiki/Software/XKeyboardConfig/XKB2Dreams/
